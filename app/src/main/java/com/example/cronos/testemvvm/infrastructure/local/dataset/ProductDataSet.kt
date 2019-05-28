@@ -1,9 +1,9 @@
-package com.example.cronos.testemvvm.infra.repository
+package com.example.cronos.testemvvm.infrastructure.local.dataset
 
 import androidx.lifecycle.LiveData
-import com.example.cronos.testemvvm.infra.local.db.entity.Product
+import com.example.cronos.testemvvm.infrastructure.local.db.entity.Product
 
-interface ProductRepository {
+interface ProductDataSet {
     fun insert(product: Product)
     fun deleteAll()
     fun getAllProductsById(): LiveData<List<Product>>

@@ -1,4 +1,4 @@
-package com.example.cronos.testemvvm.infra.local.db.dao
+package com.example.cronos.testemvvm.infrastructure.local.db.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
@@ -7,7 +7,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.example.cronos.testemvvm.infra.local.db.entity.Product
+import com.example.cronos.testemvvm.infrastructure.local.db.entity.Product
 
 @Dao
 interface ProductDao {

@@ -1,4 +1,4 @@
-package com.example.cronos.testemvvm.infra.local.db.entity
+package com.example.cronos.testemvvm.infrastructure.local.db.entity
 
 import androidx.annotation.NonNull
 import androidx.room.ColumnInfo

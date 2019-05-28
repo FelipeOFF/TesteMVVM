@@ -3,7 +3,7 @@ package com.example.cronos.testemvvm.domain.interector
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
 import com.example.cronos.testemvvm.domain.mapper.ProductMapper
-import com.example.cronos.testemvvm.infra.repository.ProductRepository
+import com.example.cronos.testemvvm.infrastructure.repository.ProductRepository
 import com.example.cronos.testemvvm.presentation.view.model.persistence.ProductViewModel
 import javax.inject.Inject
 

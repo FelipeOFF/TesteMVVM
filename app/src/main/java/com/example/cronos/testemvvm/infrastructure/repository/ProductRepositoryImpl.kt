@@ -1,8 +1,8 @@
-package com.example.cronos.testemvvm.infra.repository
+package com.example.cronos.testemvvm.infrastructure.repository
 
 import androidx.lifecycle.LiveData
-import com.example.cronos.testemvvm.infra.local.dataset.ProductDataSet
-import com.example.cronos.testemvvm.infra.local.db.entity.Product
+import com.example.cronos.testemvvm.infrastructure.local.dataset.ProductDataSet
+import com.example.cronos.testemvvm.infrastructure.local.db.entity.Product
 import javax.inject.Inject
 
 class ProductRepositoryImpl @Inject constructor(

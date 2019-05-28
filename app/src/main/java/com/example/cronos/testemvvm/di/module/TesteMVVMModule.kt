@@ -6,7 +6,7 @@ import androidx.room.Room
 import com.example.cronos.testemvvm.di.ApplicationContext
 import com.example.cronos.testemvvm.di.ProductDB
 import com.example.cronos.testemvvm.di.module.presentation.view.ViewModelModule
-import com.example.cronos.testemvvm.infra.local.db.ProductDataBase
+import com.example.cronos.testemvvm.infrastructure.local.db.ProductDataBase
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

@@ -1,9 +1,9 @@
-package com.example.cronos.testemvvm.infra.local.db
+package com.example.cronos.testemvvm.infrastructure.local.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.cronos.testemvvm.infra.local.db.dao.ProductDao
-import com.example.cronos.testemvvm.infra.local.db.entity.Product
+import com.example.cronos.testemvvm.infrastructure.local.db.dao.ProductDao
+import com.example.cronos.testemvvm.infrastructure.local.db.entity.Product
 
 @Database (
     entities = [

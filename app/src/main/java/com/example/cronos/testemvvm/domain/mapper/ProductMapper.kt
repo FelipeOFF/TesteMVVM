@@ -1,7 +1,7 @@
 package com.example.cronos.testemvvm.domain.mapper
 
 import com.example.cronos.testemvvm.domain.utils.toMoney
-import com.example.cronos.testemvvm.infra.local.db.entity.Product
+import com.example.cronos.testemvvm.infrastructure.local.db.entity.Product
 import com.example.cronos.testemvvm.presentation.view.model.persistence.ProductViewModel
 import javax.inject.Inject
 
